@@ -11,12 +11,12 @@ function initialize() {
         var img = entry.mediaGroups[0].contents[0].thumbnails[0].url
         var item = $('<li>'+ 
                 '<div class="collapsible-header" onclick="removeSnippet(this)">'+
-                  '<div>' + 
-                    '<h5>' +entry.title + '</h5>'+
+                  '<div >' + 
+                    '<h5>' + entry.title + '</h5>'+
                     '<h6>' + 
-                      '<span>'+ 'Posted: ' + new Date(entry.publishedDate) + '</span>'+
+                    '<div>'+ 'Posted: ' + new Date(entry.publishedDate) + '</div>'+
                     '</h6>'+
-                    '<div/>' + entry.contentSnippet  + '</div>' +
+                    '<span/>' + entry.contentSnippet  + '</span>' +
                   '</div>'+
                 '</div>'+
                 '<div class="collapsible-body">'+
