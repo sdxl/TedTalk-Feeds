@@ -14,6 +14,7 @@ function initialize() {
                   '<h6>' + 
                   '<div>'+ 'Posted: ' + new Date(entry.publishedDate) + '</div>'+
                   '</h6>'+
+                  '<img src=' + img + '>' +
                 '</div>'+
               '</div>'+
               '<div class="collapsible-body">'+
